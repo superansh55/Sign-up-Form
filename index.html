@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <div id="div1">
+        <img src="./assets/image.jpg" alt="imageofleaves" >
+        <div id="logodiv">
+            <img src="./assets/logo.png" alt="logo" id="logoimg">
+            <h1 id="logoHeading">Brand</h1>
+        </div>
+    </div>
+    <div id="div2">
+        <p class="upperText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt totam officiis eveniet possimus facere consectetur laboriosam corporis? Natus, veritatis animi illo nulla, molestiae explicabo molestias rerum aspernatur ad cum unde?</p>
+        <p class="upperText">You know you want to.</p>
+        <form action="" id="myForm" method="post">
+       <fieldset>
+        <legend>Let's do this!</legend>
+        <div class="details">
+        <label for="firstName">FIRST NAME</label>
+        <input type="text" id="firstName" name="firstName">
+         <label for="email">EMAIL</label>
+        <input type="email" id="email"  name="email">
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" class="pass" required name="password">
+        </div>
+         <div class="details">
+        <label for="lastName">LAST NAME</label>
+        <input type="text" id="lastName" name="lastName">
+         <label for="contact">PHONE NUMBER</label>
+        <input type="tel" id="contact" name="phoneNumber">
+        <label for="confirmPassword">CONFIRM PASSWORD</label>
+        <input type="password" id="confirmPassword" class="pass" required name="confirmPassword">
+        </div>
+        </fieldset>
+        </form>
+        <button type="submit" form="myForm">Create Account</button>
+        <p id="bottomText">Already have an account? <a href="">Log in</a></p>
+    </div>
+    </div>
+</body>
+</html>

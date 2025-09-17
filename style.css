@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('assets/font/Norse-Bold.woff2') format('woff2'),
+        url('assets/font/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container{
+    display: flex;
+   
+    height: 100%;
+    width: 1300px;
+    border: 2px brown solid;
+}
+
+
+#div1>img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+      position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+}
+
+#div1{
+    width: 1200px;
+    position: relative;
+}
+
+#div2{
+    height: 100%;
+    padding-bottom: 500px;
+    padding-top: 150px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+fieldset{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+     padding-left: 30px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+   
+    padding: 7px;
+    width: 200px;
+    height: 10px;
+    border: 1px #E5E7EB solid;
+    border-radius: 5px;
+}
+
+label{
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    margin-top: 50px;
+   
+}
+
+.upperText{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+button{
+    background-color: #596D48;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding:10px 40px
+    
+    
+    
+}
+
+#bottomText{
+    margin-left: 30px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#logodiv{
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top:150px
+    
+}
+
+#logoHeading{
+    color: white;
+    margin-top: 10%;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Norse';
+}
+
+input:focus{
+    border: solid blue;
+}
+
+input:invalid{
+    border:  red solid;
+}
+
+a:link{
+    color: #596D48;
+}
+
+a:visited{
+    color: #7db948;
+}
